@@ -7,10 +7,3 @@ export default function getFullResponseFromAPI(success) {
     }
   });
 }
-
-/* getFullResponseFromAPI().then(() => myResolve()).catch(() => myReject()); */
-
-// getFullResponseFromAPI().then(
-//   function myResolve(value) { getFullResponseFromAPI(value); },
-//   function myReject(error) { getFullResponseFromAPI(error); },
-// );

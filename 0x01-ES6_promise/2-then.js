@@ -1,7 +1,10 @@
 export default function handleResponseFromAPI(promise) {
   const answer = new Promise((myResolve, myReject) => {
     if (promise) {
-      myResolve({ status: 200, body: 'Success' });
+      myResolve({
+        body: 'success',
+        status: 200
+      });
     } else {
       myReject(new Error());
     }
